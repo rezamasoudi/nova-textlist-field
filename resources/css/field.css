@@ -12,17 +12,28 @@
     line-height: 1.25rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    text-overflow: ellipsis;
 }
 .masoudi-nova-textlist input:focus {
     outline: none;
 }
 
 .masoudi-nova-textlist .text-item {
-    display: inline-block;
+    display: inline-flex;
     margin: 4px;
     padding: 2px 4px;
     border-radius: 4px;
 }
 .masoudi-nova-textlist .text-item:not(:first-child){
     margin-inline-start: .1rem;
+}
+
+.masoudi-nova-textlist .text-item svg {
+    width: 16px;
+    height: auto;
+    margin: 0 4px;
+}
+
+.masoudi-nova-textlist .text-item svg:hover {
+    cursor: pointer;
 }
