@@ -10,6 +10,18 @@ Install package via Composer
 ```bash
 composer require masoudi/nova-textlist-field
 ```
+
+Cast field to array in model `in version ^0.2`
+```php
+class Post extends Model {
+
+    protected $casts = [
+        'labels' => 'array'
+    ];
+
+}
+```
+
 Add the `TextList` field at nova resource
 ```php
     public function fields(NovaRequest $request)
