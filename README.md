@@ -15,7 +15,7 @@ Install package via Composer
 composer require masoudi/nova-textlist-field
 ```
 
-Cast field to array in model `in version ^0.2`
+Cast field to array
 ```php
 class Post extends Model {
 
