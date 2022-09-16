@@ -1,3 +1,7 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/masoudi/nova-textlist-field.svg?style=flat)](https://packagist.org/packages/masoudi/nova-textlist-field)
+[![Total Downloads](https://img.shields.io/packagist/dt/masoudi/nova-textlist-field.svg?style=flat)](https://packagist.org/packages/masoudi/nova-textlist-field)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
+
 # Laravel Nova Text List Field
 Create JSON text list as simple
 
